@@ -1,0 +1,85 @@
+body{
+	background-color:#232323 ;
+	margin: 0;
+	font-family: "montserrat";
+}
+
+
+.square {
+	width: 30%;
+	background-color: #232323;
+	margin: 1.66%;
+	float:  left;
+	padding-bottom: 30%;
+	border-radius: 15%;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s; 
+	-moz-transition: all 0.5s; 
+}
+
+#container{
+	margin-left:auto;
+	margin-right: auto;
+	margin-top:  20px;
+	margin-bottom:  20px;
+	max-width: 600px;
+
+}
+h1{
+	text-align: center;
+	color: white;
+	line-height: 1.05;
+	background: steelblue;
+	margin: 0;
+	font-weight: normal ;
+	text-transform: uppercase;
+	padding:  20px 0;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s; 
+	-moz-transition: all 0.5s;
+
+}
+
+button{
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.2s;
+	-webkit-transition: all 0.2s; 
+	-moz-transition: all 0.2; 
+	outline: none;
+} 
+
+#colorDisplay{
+font-size: 200%;
+}
+
+
+#message{
+	color: black; 
+	display: inline-block;
+	width: 20%;
+}
+
+#stripe{
+	background:  white;
+	height: 30px;
+	text-align: center;
+
+}
+
+.selected{
+	color: white;
+	background: steelblue;
+}
+
+
+button:hover{
+	color: white;
+	background: steelblue;
+}
